@@ -2,29 +2,28 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Yatra+One&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
-
+  --primary-color: #74CEDF ;
+  --secondary-color: #322D4E;
+  --accent1-color: #9E90A2;
+  --accent2-color: #537E97;
+ 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Yatra One";
+  --paragraph-font: Gruppo, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --headline-color-on-white: #74cdef;  /* headlines on a white background */ 
+  --headline-color-on-color: #E8F7EE; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #322D4E; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #E8F7EE; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #537E97;
+  --nav-link-color: #E8F7EE;
+  --nav-background-color: #322D4E;
+  --nav-hover-link-color: #74cdef;
+  --nav-hover-background-color: #9E90A2;
 }
 
 
@@ -36,6 +35,7 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  font-family: var(--paragraph-font);
 }
 img {
   display: block;
@@ -65,9 +65,18 @@ header > h1, header > h2 {
 }
 p {
   font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-color);
+  color: var(--text-color);
+  padding: 1em;
+  text-align: left;
+}
+
+ol{
+  text-align: left;
+  font-family: var(--paragraph-font);
+  color: var(--text-color);
   padding: 1em;
 }
+
 .colors {
   width: 100%;
   min-width: 350px;
@@ -75,7 +84,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #999;
+  background-color: #E8F7EE;
 }
 .colors td{
   width: 25%;
@@ -86,6 +95,7 @@ p {
 }
 .secondary {
   background-color: var(--secondary-color);
+  color: var(--headline-color-on-white);
 }
 .accent1 {
   background-color: var(--accent1-color);
@@ -102,6 +112,7 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
+  font-family: var(--paragraph-font);
 }
 nav  {
   list-style-type: none;
@@ -136,17 +147,17 @@ nav a:hover {
 }
 .sm-home {
   grid-area: home;
-  background-color: #ccc;
+  background-color: #E8F7EE;
   line-height: 3em;
 }
 .sm-page2 {
   grid-area: page2;
-  background-color: #ccc;
+  background-color: #E8F7EE;
   line-height: 3em;
 }
 .sm-page3 {
   grid-area: page3;
-  background-color: #ccc;
+  background-color: #E8F7EE;
   line-height: 3em;
 }
 .top {
