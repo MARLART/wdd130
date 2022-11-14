@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Yatra+One&display=swap');
+
 body {
     background-color: #E8F7EE;
+    font-family: Gruppo, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #322D4E;
@@ -14,6 +20,7 @@ nav a {
     text-align: center;
     color: #E8F7EE;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #9E90A2;
@@ -31,6 +38,9 @@ nav a:hover{
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     background-color: #537E97;
@@ -40,6 +50,10 @@ main section {
     background-color: #322D4E;
     color: #E8F7EE;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #9E90A2;
@@ -48,16 +62,23 @@ main section {
 .msg {
     background-color: #537E97;
     color: #E8F7EE;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #E8F7EE;
+    font-family: "Yatra One", Garamond, serif;
 }
 .msg p {
     color: #E8F7EE;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #74CEDF;
     color: #322D4E;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #322D4E;
@@ -71,9 +92,15 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
-}    
+}  
+footer .social img {
+    padding-top: 15px;
+}
 .home-title {
     color: #322D4E;
+    font-family: "Yatra One", Garamond, serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #74CDEF;
@@ -83,5 +110,19 @@ h4 {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #74CDEF;
+}
+
 
