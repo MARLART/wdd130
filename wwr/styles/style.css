@@ -64,6 +64,7 @@ main section img {
     color: #E8F7EE;
     line-height: 1.5em;
     padding: 35px;
+    margin-top: 200px;
 }
 .msg h2 {
     color: #E8F7EE;
@@ -73,6 +74,9 @@ main section img {
     color: #E8F7EE;
     font-size: .8em;
     padding-bottom: 15px;
+}
+.mountains{
+    margin-top: 100px;
 }
 footer {
     background-color: #74CEDF;
