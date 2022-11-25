@@ -38,6 +38,7 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  max-width: 400px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -96,6 +97,9 @@ p {
 p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
+}
+li {
+  text-align: left;
 }
 
 nav {
