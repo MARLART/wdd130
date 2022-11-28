@@ -219,7 +219,7 @@ footer .social img {
     grid-template-columns: .5fr 1fr 6fr 1fr .5fr;
 }
 .rivers-grid p {
-    font-size: 0.5em;
+    font-size: 1em;
     color: white;
 }
 .d-title {
