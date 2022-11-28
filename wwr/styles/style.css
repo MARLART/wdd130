@@ -227,7 +227,7 @@ footer .social img {
     grid-row: 1/2; 
     margin-top: 3em;    
 }
-.d-title h4 {
+.d-title h2 {
     text-align: center;
     color: #322D4E;
 }
@@ -251,7 +251,7 @@ footer .social img {
     grid-row: 8/9; 
     margin-top: 3em;    
 }
-.f-title h4 {
+.f-title h2 {
     text-align: center;
     color: #322D4E;
 }
@@ -275,7 +275,7 @@ footer .social img {
     grid-row: 15/16; 
     margin-top: 3em;    
 }
-.g-title h4 {
+.g-title h2 {
     text-align: center;
     color: #322D4E;
 }
