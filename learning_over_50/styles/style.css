@@ -24,6 +24,15 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--headline-color-on-color);
   }
+header {
+    height: 600px;
+    background-color: #f0faf5;
+}
+.logo1 {
+    width: 50%;
+    height: 500px;
+    float: left;
+}
 
 header nav {
     grid-column: 1/3;
