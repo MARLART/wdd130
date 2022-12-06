@@ -17,7 +17,7 @@
 body {
 margin: 0 auto;
 font-size: 18px;
-text-align: center;
+text-align: left;
 font-family: var(--paragraph-font);
 } 
 h1, h2, h3, h4, h5, h6 {
@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
     text-align: left;
     padding-left: 3em;
+    padding-bottom: 2em;
 }
 
 header nav {
@@ -62,7 +63,7 @@ a:hover {
 .main-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
 }
 .main-grid p {
     color: var(--paragraph-color-on-color);
@@ -71,17 +72,23 @@ a:hover {
 }
 #info1 {
     grid-column: 1/2;
-    grid-row: 1/2;
+    grid-row: 2/3;
     background-color: var(--paragraph-background-color);
+    margin-left: 2em;
+    margin-right: 2em;
 }
 #img1 {
     grid-column: 2/3;
-    grid-row: 1/4;
+    grid-row: 1/7;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 #info2 {
     grid-column: 1/2;
-    grid-row: 3/4;
+    grid-row: 5/6;
     background-color: var(--paragraph-background-color);
+    margin-left: 2em;
+    margin-right: 2em;
 }
 footer {
     background-color: var(--nav-background-color);
