@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--headline-color-on-color);
   }
-header {
+#logo_link {
     height: 600px;
     background-color: #f0faf5;
     border: red;
@@ -34,6 +34,9 @@ header {
     height: 500px;
     float: left;
     top: 0px;
+}
+.logo2 {
+    height:600px;
 }
 h2 {
     text-align: left;
