@@ -32,6 +32,10 @@ header {
     width: 50%;
     height: 500px;
     float: left;
+    top: 0px;
+}
+h2 {
+    text-align: left;
 }
 
 header nav {
