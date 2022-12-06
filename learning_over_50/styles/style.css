@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
     height: 600px;
     background-color: #f0faf5;
+    border: red;
 }
 .logo1 {
     width: 50%;
