@@ -78,7 +78,7 @@ a:hover {
     grid-row: 1/2;
 }
 #info1 a {
-    color: white;
+    text-decoration: underline;
 }
 #img1 {
     grid-column: 3/4;
