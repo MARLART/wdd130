@@ -60,13 +60,13 @@ a:hover {
 }
 .main-grid {
     display: grid;
-    grid-template-columns: 40% 20% 40%;
+    grid-template-columns: 2fr 1fr 200px;
     grid-template-rows: repeat(4, 1fr);
     margin: 2em 1em;
 }
 .main-grid p {
     color: var(--paragraph-color-on-color);
-    background-color: red;
+    background-color: blue;
     padding: 1em;
 }
 .main-grid h2 {
