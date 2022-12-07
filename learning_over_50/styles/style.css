@@ -60,7 +60,7 @@ a:hover {
 }
 .main-grid {
     display: grid;
-    grid-template-columns: 1fr .5fr 1fr;
+    grid-template-columns: 40% 20% 40%;
     grid-template-rows: repeat(4, 1fr);
     margin: 2em 1em;
 }
