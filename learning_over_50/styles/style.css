@@ -17,7 +17,7 @@
 body {
 margin: 0 auto;
 font-size: 18px;
-text-align: left;
+text-align: center;
 font-family: var(--paragraph-font);
 } 
 h1, h2, h3, h4, h5, h6 {
@@ -28,9 +28,9 @@ header {
     background-color: #f0faf5;    
 }
 .logo1 {
-    height: 500px;
+
     float: left;
-    top: 0px;
+
 }
 .logo2 {
     width: 50%;
@@ -82,7 +82,7 @@ a:hover {
     grid-column: 2/3;
     grid-row: 1/7;
     margin: 2em;
-    width: 40%;
+    width: 30%;
 }
 #info2 {
     grid-column: 1/2;
