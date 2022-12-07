@@ -37,6 +37,7 @@ header {
 h2 {
     text-align: left;
     padding-bottom: 2em;
+    padding-left: 2em;
 }
 
 header nav {
@@ -65,7 +66,7 @@ a:hover {
 }
 .main-grid p {
     color: var(--paragraph-color-on-color);
-    background-color: black;
+    background-color: white;
     padding: 1em;
 }
 .main-grid h2 {
@@ -88,7 +89,8 @@ a:hover {
     grid-row: 3/4;
 }
 .infographic {
-    height: 400px;
+    height: 500px;
+    width: 200;
 }
 footer {
     background-color: var(--nav-background-color);
