@@ -63,6 +63,7 @@ a:hover {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(4, 1fr);
     margin: 2em 1em;
+    max-height: 600px;
 }
 .main-grid p {
     color: var(--paragraph-color-on-color);
@@ -75,7 +76,7 @@ a:hover {
 #img1 {
     grid-column: 2/3;
     grid-row: 1/5;
-    height: 80%;
+    height: 30%;
     width: auto;
 }
 #info2 {
