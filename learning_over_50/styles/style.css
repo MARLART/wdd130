@@ -74,7 +74,7 @@ a:hover {
     grid-row: 1/2;
 }
 #info1 a {
-    color: var(--nav-hover-background-color);
+    color: white;
 }
 #img1 {
     grid-column: 3/4;
