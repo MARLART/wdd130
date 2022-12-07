@@ -28,12 +28,11 @@ header {
     background-color: #f0faf5;    
 }
 .logo1 {
-    bottom: 0px;
     float: left;
-
 }
 .logo2 {
     width: 50%;
+    max-height: 500px;
 }
 h2 {
     text-align: center;
