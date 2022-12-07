@@ -25,7 +25,8 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--headline-color-on-color);
   }
 header { 
-    background-color: #f0faf5;    
+    background-color: #f0faf5; 
+    margin-bottom: 3em;   
 }
 .logo1 {
     float: left;
@@ -35,7 +36,7 @@ header {
     max-height: 500px;
 }
 h2 {
-    text-align: left;
+    text-align: center;
     padding-bottom: 2em;
     padding-left: 2em;
 }
@@ -67,7 +68,7 @@ a:hover {
 }
 .main-grid p {
     color: var(--paragraph-color-on-color);
-    background-color: yellow;
+    background-color: white;
     padding: 1em;
 }
 .main-grid h2 {
