@@ -29,7 +29,7 @@ header {
 }
 .logo1 {
     float: left;
-    bottom: -20em;
+    bottom: -50em;
 }
 .logo2 {
     width: 50%;
@@ -66,7 +66,7 @@ a:hover {
 }
 .main-grid p {
     color: var(--paragraph-color-on-color);
-    background-color: orange;
+    background-color: purple;
     padding: 1em;
 }
 .main-grid h2 {
