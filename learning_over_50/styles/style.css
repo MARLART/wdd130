@@ -73,6 +73,9 @@ a:hover {
     grid-column: 1/2;
     grid-row: 1/2;
 }
+#info1 a {
+    color: var(--nav-hover-background-color);
+}
 #img1 {
     grid-column: 2/3;
     grid-row: 1/5;
