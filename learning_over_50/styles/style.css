@@ -29,10 +29,9 @@ header {
 }
 .logo1 {
     float: left;
-    bottom: -100em;
 }
 .logo2 {
-    width: 50%;
+    float: right;
     max-height: 500px;
 }
 h2 {
@@ -66,7 +65,7 @@ a:hover {
 }
 .main-grid p {
     color: var(--paragraph-color-on-color);
-    background-color: yellowgreen;
+    background-color: rgb(205, 50, 161);
     padding: 1em;
 }
 .main-grid h2 {
