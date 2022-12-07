@@ -31,11 +31,11 @@ header {
     float: left;
 }
 .logo2 {
-    float: right;
+    width: 50%;
     max-height: 500px;
 }
 h2 {
-    text-align: center;
+    text-align: left;
     padding-bottom: 2em;
 }
 
@@ -65,7 +65,7 @@ a:hover {
 }
 .main-grid p {
     color: var(--paragraph-color-on-color);
-    background-color: rgb(205, 50, 161);
+    background-color: black;
     padding: 1em;
 }
 .main-grid h2 {
@@ -88,7 +88,7 @@ a:hover {
     grid-row: 3/4;
 }
 .infographic {
-    max-width: 50px;
+    height: 400px;
 }
 footer {
     background-color: var(--nav-background-color);
