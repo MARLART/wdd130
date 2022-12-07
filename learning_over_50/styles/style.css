@@ -66,6 +66,7 @@ a:hover {
 }
 .main-grid p {
     color: var(--paragraph-color-on-color);
+    background-color: var(--paragraph-background-color);
     padding: 1em;
 }
 #info1 {
