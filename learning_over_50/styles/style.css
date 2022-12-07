@@ -69,6 +69,10 @@ a:hover {
     background-color: var(--paragraph-background-color);
     padding: 1em;
 }
+.main-grid h2 {
+    color: var(--headline-color-on-white);
+    padding: 1em;
+}
 #info1 {
     grid-column: 1/2;
     grid-row: 1/2;
