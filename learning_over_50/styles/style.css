@@ -28,7 +28,7 @@ header {
     background-color: #f0faf5;    
 }
 .logo1 {
-
+    bottom: 0px;
     float: left;
 
 }
@@ -93,6 +93,6 @@ footer a {
     height: 1em;
 }
 footer p img {
-    height: 1em;
+    height: 1.5em;
 }
 
