@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 header { 
     background-color: #f0faf5;  
+    margin-bottom: 150px;
 }
 .logo1 {
     float: left;
@@ -35,7 +36,7 @@ header {
     max-height: 500px;
 }
 header h2 {
-    text-align: center;
+    text-align: left;
     padding-bottom: 2em;
     padding-left: 2em;
 }
@@ -46,7 +47,6 @@ header nav {
     background-color: var(--nav-background-color);
     padding: 1.5em;
     font-size: 1.5em;
-    margin-bottom: 3em;
 }
 header nav:hover {
     background-color: var(--nav-hover-background-color);
@@ -68,7 +68,7 @@ a:hover {
 }
 .main-grid p {
     color: var(--paragraph-color-on-color);
-    background-color: green;
+    background-color: orange;
     padding: 1em;
 }
 .main-grid h2 {
