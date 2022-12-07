@@ -82,7 +82,10 @@ a:hover {
     grid-column: 2/3;
     grid-row: 1/5;
     margin: 2em;
-    width: 30%;
+    height: 100%;
+    max-height: 600px;
+    width: auto;
+
 }
 #info2 {
     grid-column: 1/2;
