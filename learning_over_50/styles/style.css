@@ -106,3 +106,12 @@ footer p img {
   margin: 0 auto;
   max-width: 400px;
 }
+#img2a {
+    float: left;
+}
+#imgb {
+    float: right;
+}
+#info3 {
+    background-color: red;
+}
