@@ -107,14 +107,14 @@ footer p img {
   max-width: 400px;
 }
 
-#info3 {
-    background-color: yellow;
+#info3 #info4{
+    background-color: purple;
     margin: 5em auto;
     text-align: left;
 }
-#info3 h2 {
+#info3 #info4 h2 {
     color: var(--headline-color-on-white);
 }
-#info p {
+#info3 #info4 p {
     color: var(--paragraph-color-on-white);
 }
