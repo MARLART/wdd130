@@ -106,8 +106,6 @@ footer p img {
   display: block;
   margin: 0 auto;
   max-width: 500px;
-  max-height: 500px;
-
 }
 #img2a {
     float: left;
@@ -117,9 +115,8 @@ footer p img {
     float: right;
     padding: 5em;
 }
-
 #info3, #info4{
-    background-color: red;
+    background-color: yellow;
     margin: 5em 10em;
 }
 #info3 h2, #info4 h2 {
