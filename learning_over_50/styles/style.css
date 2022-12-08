@@ -108,13 +108,13 @@ footer p img {
 }
 
 #info3 #info4{
-    background-color: green;
+    background-color: orange;
     margin: 5em auto;
-    text-align: left;
 }
 #info3 #info4 h2 {
     color: var(--headline-color-on-white);
 }
 #info3 #info4 p {
     color: var(--paragraph-color-on-white);
+    text-align: left;
 }
