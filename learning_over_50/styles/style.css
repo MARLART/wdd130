@@ -106,15 +106,21 @@ footer p img {
   margin: 0 auto;
   max-width: 400px;
 }
+img #img2a {
+    float: left;
+}
+img #img2b {
+    float: right;
+}
 
-#info3 #info4{
-    background-color: orange;
+#info3, #info4{
+    background-color: grey;
     margin: 5em auto;
 }
-#info3 #info4 h2 {
+#info3 h2, #info4 h2 {
     color: var(--headline-color-on-white);
 }
-#info3 #info4 p {
+#info3 p, #info4 p {
     color: var(--paragraph-color-on-white);
     text-align: left;
 }
