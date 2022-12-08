@@ -106,21 +106,26 @@ footer p img {
 }
 
 /* online vs face to face page */
+#img2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+}
 #img2 img {
-  display: block;
-  margin: 0 auto;
+  
+  /*margin: 0 auto;*/
   max-width: 500px;
 }
 #img2a {
     float: left;
+    grid-column: 2/4;
 
 }
 #img2b {
     float: right;
-
+    grid-column: 5/7;
 }
 #info3, #info4{
-    background-color: blue;
+    background-color: magenta;
     margin: 5em 10em;
 }
 #info3 h2, #info4 h2 {
