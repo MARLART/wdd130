@@ -25,6 +25,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--headline-color-on-color);
   }
+ol {
+    text-align: left;
+    color: var(--paragraph-color-on-white);
+}
 header { 
     background-color: #f0faf5;  
     margin-bottom: 150px;
@@ -109,20 +113,24 @@ footer p img {
 }
 #img2a {
     float: left;
-    padding: 5em;
+
 }
 #img2b {
     float: right;
-    padding: 5em;
+
 }
 #info3, #info4{
-    background-color: yellow;
+    background-color: blue;
     margin: 5em 10em;
 }
 #info3 h2, #info4 h2 {
     color: var(--headline-color-on-white);
 }
-#info3 p ol, #info4 p ol{
+#info3 p {
+    color: var(--paragraph-color-on-white);
+    text-align: left;
+} 
+#info4 p{
     color: var(--paragraph-color-on-white);
     text-align: left;
 }
