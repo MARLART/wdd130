@@ -15,10 +15,11 @@
     --nav-hover-background-color: #E0F5EA;
   }
 body {
-margin: 0 auto;
-font-size: 18px;
-text-align: center;
-font-family: var(--paragraph-font);
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
 } 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
