@@ -136,10 +136,10 @@ footer p img {
     text-align: left;
     padding-left: 5em;
 } 
-#info3 li {
+#info3 ol {
     padding-left: 5em;
 }
-#info4 p{
+#info4 ol{
     color: var(--paragraph-color-on-white);
     text-align: left;
 }
