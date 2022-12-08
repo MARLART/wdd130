@@ -109,7 +109,7 @@ footer p img {
 #img2 {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 1fr;
-    grid-column-gap: 5em;
+    grid-column-gap: 2em;
 }
 #img2 img {
   
@@ -121,10 +121,10 @@ footer p img {
 
 }
 #img2b {
-    grid-column: 5/7;
+    grid-column: 4/6;
 }
 #info3, #info4{
-    background-color: green;
+    background-color: white;
     margin: 5em 10em;
 }
 #info3 h2, #info4 h2 {
