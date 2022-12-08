@@ -106,12 +106,15 @@ footer p img {
   margin: 0 auto;
   max-width: 400px;
 }
-#img2a {
-    float: left;
-}
-#imgb {
-    float: right;
-}
+
 #info3 {
-    background-color: red;
+    background-color: yellow;
+    margin: 5em auto;
+    text-align: left;
+}
+#info3 h2 {
+    color: var(--headline-color-on-white);
+}
+#info p {
+    color: var(--paragraph-color-on-white);
 }
