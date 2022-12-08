@@ -108,8 +108,8 @@ footer p img {
 /* online vs face to face page */
 #img2 {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
-    grid-column-gap: 2em;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-column-gap: 5em;
 }
 #img2 img {
   
@@ -117,16 +117,14 @@ footer p img {
   max-width: 500px;
 }
 #img2a {
-    float: left;
     grid-column: 2/4;
 
 }
 #img2b {
-    float: right;
     grid-column: 5/7;
 }
 #info3, #info4{
-    background-color: white;
+    background-color: green;
     margin: 5em 10em;
 }
 #info3 h2, #info4 h2 {
