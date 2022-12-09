@@ -145,9 +145,11 @@ footer p img {
 
 /* learning on a budget */
 
-#img4 img {
-    display: block;
-    margin: 0 auto;
-    max-width: 500px 
+#info5 {
+    background-color: red;
 }
-/*again*/
+
+#img4 img {
+    float: left;
+    max-width: 500px;    
+}
