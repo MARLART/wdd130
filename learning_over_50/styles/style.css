@@ -146,18 +146,24 @@ footer p img {
 /* learning on a budget */
 
 #info5 {
-    background-color: green;
+    background-color: orange;
 }
 
 #img4 img {
     float: left;
-    max-width: 500px;    
+    max-width: 500px; 
+    padding-left: 2em; 
+    margin-right: 2em;  
 }
 #img5 img {
     float: right;
     max-width: 400px;
+    padding-right: 3em; 
+    margin-left: 3em;
 }
 #img6 img {
     float: left;
-    max-width: 400px;    
+    max-width: 400px; 
+    padding-left: 3em; 
+    margin-right: 3em;   
 }
