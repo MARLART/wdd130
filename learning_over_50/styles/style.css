@@ -146,7 +146,7 @@ footer p img {
 /* learning on a budget */
 
 #info5 {
-    background-color: orange;
+    background-color: red;
 }
 
 #img4 img {
@@ -166,4 +166,7 @@ footer p img {
     max-width: 400px; 
     padding-left: 3em; 
     margin-right: 3em;   
+}
+div:empty {
+    background-color: red;
 }
