@@ -155,6 +155,7 @@ footer p img {
     text-align: center;
     grid-column: 1/3;
     grid-row: 1/2;
+    background-color: green;
 }
 #info6 {
     color: var(--paragraph-color-on-white);
@@ -199,7 +200,7 @@ footer p img {
     grid-column: 1/2; 
     grid-row: 6/7; 
 }
-div:empty {
+/*div:empty {
     background-color: yellow;
     height: 5em;
-}
+}*/
