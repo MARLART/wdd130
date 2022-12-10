@@ -146,7 +146,8 @@ footer p img {
 /* learning on a budget */
 
 #info5 {
-    background-color: red;
+    color: var(--paragraph-color-on-white);
+    text-align: center;
 }
 
 #img4 img {
@@ -168,5 +169,6 @@ footer p img {
     margin-right: 3em;   
 }
 div:empty {
-    background-color: red;
+    background-color: rebeccapurple;
+    height: 5em;
 }
