@@ -157,6 +157,7 @@ footer p img {
     grid-row: 1/2;
     padding: 5em;
     max-height: 5em;
+    background-color: grey;
 }
 #info6 {
     color: var(--paragraph-color-on-white);
@@ -181,6 +182,7 @@ footer p img {
 }
 
 #img4 img {
+    display: block;
     max-width: 500px; 
     grid-column: 1/2; 
     grid-row: 2/5;
@@ -198,7 +200,3 @@ footer p img {
     grid-row: 6/7; 
     background-color: green;
 }
-/*div:empty {
-    background-color: yellow;
-    height: 5em;
-}*/
