@@ -157,7 +157,7 @@ footer p img {
     grid-row: 1/2;
     padding: 5em;
     max-height: 5em;
-    background-color: grey;
+    background-color: white;
 }
 #info6 {
     color: var(--paragraph-color-on-white);
@@ -185,17 +185,14 @@ footer p img {
     max-width: 500px; 
     grid-column: 1/2; 
     grid-row: 2/5;
-    background-color: orange;
 }
 #img5 img {
     max-width: 400px;
     grid-column: 2/3;
     grid-row: 5/6;
-    background-color: purple;
 }
 #img6 img {
      max-width: 400px; 
     grid-column: 1/2; 
     grid-row: 6/7; 
-    background-color: green;
 }
