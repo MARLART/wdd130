@@ -148,7 +148,7 @@ footer p img {
 #budget-grid {
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(6, 300px);
+    grid-template-rows: repeat(6, 1fr);
 }
 #info5 {
     color: var(--paragraph-color-on-white);
@@ -163,9 +163,8 @@ footer p img {
     text-align: center;
     grid-column: 2/3;
     grid-row: 3/4;
-    background-color: red;
     align-self: center;
-    padding-right: 2em;
+    padding-right: 3em;
 }
 #info7 {
     color: var(--paragraph-color-on-white);
@@ -205,3 +204,18 @@ footer p img {
     grid-column: 1/2; 
     grid-row: 6/7; 
 }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: orange;
+  }
+  #img4:hover .overlay {
+    opacity: 1;
+  }
