@@ -148,7 +148,7 @@ footer p img {
 #budget-grid {
     display:grid;
     grid-template-columns: 1fr 0.5fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 #info5 {
     color: var(--paragraph-color-on-white);
