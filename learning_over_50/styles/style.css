@@ -155,9 +155,9 @@ footer p img {
     text-align: center;
     grid-column: 1/3;
     grid-row: 1/2;
-    padding-left: 5em;
-    padding-right: 5em;
     max-height: 5em;
+    justify-self: center;
+    background-color: grey;
 }
 #info6 {
     color: var(--paragraph-color-on-white);
@@ -165,14 +165,14 @@ footer p img {
     grid-column: 3/4;
     grid-row: 2/3;
     align-self: center;
-    padding-right: 3em;
+    justify-self: center;
 }
 #info7 {
     color: var(--paragraph-color-on-white);
     text-align: center;
     grid-column: 1/2;
     grid-row: 3/4;
-    padding-left: 3em;
+    justify-self: center;
 }
 #info8 {
     color: var(--paragraph-color-on-white);
@@ -180,7 +180,7 @@ footer p img {
     grid-column: 3/4;
     grid-row: 4/5;
     background-color: greenyellow;
-    padding-right: 3em;
+    justify-self: center;
 }
 
 #img4 img {
@@ -189,6 +189,7 @@ footer p img {
 #img4 {
     grid-column: 1/2; 
     grid-row: 2/3;
+    justify-self: center;
 }
 #img5 img {
     max-width: 400px;
@@ -196,6 +197,7 @@ footer p img {
 #img5 {
     grid-column: 3/4;
     grid-row: 3/4;
+    justify-self: center;
 }
 #img6 img {
      max-width: 400px; 
@@ -203,5 +205,6 @@ footer p img {
 #img6 {
     grid-column: 1/2; 
     grid-row: 4/5; 
+    justify-self: center;
 }
 
