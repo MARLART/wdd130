@@ -149,6 +149,7 @@ footer p img {
     display:grid;
     grid-template-columns: 1fr 0.5fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-top: -8em;
 }
 #info5 {
     color: var(--paragraph-color-on-white);
@@ -159,7 +160,6 @@ footer p img {
     padding-right: 8em;
     justify-self: center;
     align-self: center;
-    background-color: red;
 }
 #info6 {
     color: var(--paragraph-color-on-white);
