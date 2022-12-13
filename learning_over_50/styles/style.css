@@ -158,8 +158,8 @@ footer p img {
     padding-left: 8em;
     padding-right: 8em;
     justify-self: center;
-    margin-bottom: -5em;
-    background-color: grey;
+    align-self: center;
+    background-color: red;
 }
 #info6 {
     color: var(--paragraph-color-on-white);
