@@ -158,7 +158,8 @@ footer p img {
     padding-left: 8em;
     padding-right: 8em;
     justify-self: center;
-
+    margin-bottom: -5em;
+    background-color: grey;
 }
 #info6 {
     color: var(--paragraph-color-on-white);
@@ -168,6 +169,7 @@ footer p img {
     align-self: start;
     justify-self: start;
     padding-right: 3em;
+    padding-bottom: 5em;
 }
 #info7 {
     color: var(--paragraph-color-on-white);
