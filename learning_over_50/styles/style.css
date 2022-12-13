@@ -155,7 +155,8 @@ footer p img {
     text-align: center;
     grid-column: 1/4;
     grid-row: 1/2;
-
+    padding-left: 8em;
+    padding-right: 8em;
     justify-self: center;
 
 }
@@ -175,15 +176,16 @@ footer p img {
     grid-row: 3/4;
     justify-self: start;
     padding-left: 3em;
+    padding-bottom: 5em;
 }
 #info8 {
     color: var(--paragraph-color-on-white);
     text-align: center;
     grid-column: 3/4;
     grid-row: 4/5;
-    background-color: greenyellow;
     justify-self: start;
     padding-right: 3em;
+    padding-bottom: 5em;
 }
 
 #img4 img {
