@@ -147,7 +147,7 @@ footer p img {
 
 #budget-grid {
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 0.5fr 1fr;
     grid-template-rows: 1fr 2fr 1fr 1fr;
 }
 #info5 {
@@ -162,7 +162,7 @@ footer p img {
 #info6 {
     color: var(--paragraph-color-on-white);
     text-align: center;
-    grid-column: 2/3;
+    grid-column: 3/4;
     grid-row: 2/3;
     align-self: center;
     padding-right: 3em;
@@ -172,14 +172,13 @@ footer p img {
     text-align: center;
     grid-column: 1/2;
     grid-row: 3/4;
-    background-color: blue;
     padding-left: 3em;
 }
 #info8 {
     color: var(--paragraph-color-on-white);
     text-align: center;
-    grid-column: 3/5;
-    grid-row: 6/7;
+    grid-column: 3/4;
+    grid-row: 4/5;
     background-color: greenyellow;
     padding-right: 3em;
 }
@@ -195,7 +194,7 @@ footer p img {
     max-width: 400px;
 }
 #img5 {
-    grid-column: 2/3;
+    grid-column: 3/4;
     grid-row: 3/4;
 }
 #img6 img {
